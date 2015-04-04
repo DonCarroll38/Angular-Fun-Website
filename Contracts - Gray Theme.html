@@ -1,0 +1,1116 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Contracts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular-route.min.js"></script>
+    <script src="scripts/ui-bootstrap-tpls-0.12.1.min.js" type="text/javascript"></script>
+    
+    <style type="text/css">
+        .SectCor
+        {
+            border-radius:14px;
+            background-color:rgb(244,244,242);
+            border:1px solid rgb(204,204,204);
+        }
+        .SectCor_Square_Box
+        {
+            border-radius:14px;
+            background-color:rgb(244,244,242);
+            border:1px solid rgb(204,204,204);
+            box-shadow: 0px 5px 10px 1px #888888;
+        }
+        WhiteDisabledTextBox
+        {
+            background-color:White;
+        }
+        tr
+        {
+            background-color:white;
+        }
+        .tabheading
+        {
+             color:black;
+             font-weight: bold;
+        }
+        .GroupBox_Header_Format
+        {
+            font-size:larger;
+            top:-10px;
+            position:relative;
+            background-color:rgb(244,244,242);
+        }
+        body
+        {
+            background-color:rgb(213,212,208);
+        }
+        
+        .table-hover tbody tr:hover > td,
+        .table-hover tbody tr:hover > th {
+          background-color: rgb(66,139,202);
+          color: white;
+        }
+        .TestSteadyHeader
+        {
+            position:fixed;
+        }
+    </style>
+</head>
+<body data-ng-app="customersApp">
+    <h1 style="color:black;text-align:center;padding-bottom:0px;padding-top:0px;">Contracts</h1>
+    <form id="form1" runat="server">
+        <div data-ng-controller="CustomersController">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <div class="SectCor_Square_Box col-lg-3 col-md-3 col-sm-3 col-xs-3" style="left:10px;">
+                      <div>
+                      <table class="table table-condensed table-hover table-responsive" style="padding-bottom:0px;">
+                          <thead>
+                              <tr style="background-color:rgb(244,244,242);" class="TestSteadyHeader">
+                                  <th data-ng-click="customer.doSort('name')">Goodman Contract</th>
+                                  <th data-ng-click="customer.doSort('city')">Contract Date</th>
+                              </tr>
+                          </thead>
+                            <tbody>
+                                <!--<tr data-ng-repeat="cust in customer.data | filter:people:strict | orderBy:sortBy:reverse">-->
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Test Col 1</td>
+                                    <td>Test Col 2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" style="padding-left:50px;"><br />
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="SectCor_Square_Box col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <label style="font-size:small;">&nbsp;</label>
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label for="GoodmanContract">Contract:</label>
+                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="GoodmanContract" value="{{current.customer.name}}" placeholder="Contract..." disabled>
+                                                    <div>&nbsp;{{current.customer.name}}&nbsp;</div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label for="InternalContract">Internal Contract:</label>
+                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="InternalContract" value="{{current.customer.name}}" placeholder="Internal Contract..." disabled>
+                                                    <div>&nbsp;{{current.customer.name}}&nbsp;</div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label for="Ref">Reference #:</label>
+                                                    <!--RefNum-->
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label for="ContractDate">Contract Date:</label>
+                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="ContractDate" value="{{current.customer.name}}" placeholder="Contract Date..." disabled>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label for="PONum">Customer PO:</label>
+                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="PONum" value="{{current.customer.city}}" placeholder="Customer PO..." disabled>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label for="Status">Status:</label>
+                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="Status" value="{{current.customer.city}}" placeholder="Status..." disabled>
+                                                </div>
+                                            </div>
+                                            <!-- -->
+                                            <div class="row" style="height:7px;"></div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                    <label for="PartnerName">Purchased By:</label>
+                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="PartnerName" value="{{current.customer.city}}" placeholder="Purchased By..." disabled>
+                                                </div>
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label for="BillStatus">Bill Status:</label>
+                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="BillStatus" value="{{current.customer.city}}" placeholder="Bill Status..." disabled>
+                                                </div>
+                                            </div>
+                                            <!-- -->
+                                            <div class="row" style="height:7px;"></div>
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label for="DealerName">Dealer Name:</label>
+                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="DealerName" value="{{current.customer.city}}" placeholder="Dealer Name..." disabled>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label for="DealerNum">Dealer CustNum:</label>
+                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="DealerNum" value="{{current.customer.city}}" placeholder="Dealer CustNum..." disabled>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label for="DealerSeq">Dealer CustSeq:</label>
+                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="DealerSeq" value="{{current.customer.city}}" placeholder="Dealer CustSeq..." disabled>
+                                                </div>
+                                            </div>
+                                            <!-- -->
+                                            <div class="row" style="height:7px;"></div>
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label for="DistributorName">Dist Name:</label>
+                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="DistributorName" value="{{current.customer.city}}" placeholder="Dist Name..." disabled>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label for="DistNum">Dist CustNum:</label>
+                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="DistNum" value="{{current.customer.city}}" placeholder="Dist CustNum..." disabled>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label for="DistSeq">Dist CustSeq:</label>
+                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="DistSeq" value="{{current.customer.city}}" placeholder="Dist CustSeq..." disabled>
+                                                </div>
+                                            </div>
+                                            <!-- -->
+                                            <div class="row" style="height:17px;"></div>
+                                            <div class="row">
+                                                <div class="SectCor col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                    <label class="GroupBox_Header_Format">&nbsp;Contract Printing&nbsp;</label>
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                                <label for="txtMfgForCont WhiteDisabledTextBox">Mfg For Contract:</label>
+                                                            </div>
+                                                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                                                <input don-text type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="txtMfgForCont" value="{{current.customer.city}}" placeholder="Mfg For Contract..." disabled>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                <label class="checkbox-inline"><input type="checkbox" value="">Asurecare Corp</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row" style="height:21px;">&nbsp;</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                                    <div class="SectCor col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label class="GroupBox_Header_Format">&nbsp;Pricing&nbsp;</label>
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                                    <label for="txtTotDistCost">Total Dist Cost:</label>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="txtTotDistCost" value="{{current.customer.city}}" disabled>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                                    <label for="txtTotDealCost">Total Dealer Cost:</label>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="txtTotDealCost" value="{{current.customer.city}}" disabled>
+                                                                </div>
+                                                            </div>
+                                                            <!-- -->
+                                                            <div class="row" style="height:7px;"></div>
+                                                            <div class="row">
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                                    <label for="txtTotMfgCost">Total Mfg Cost:</label>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="txtTotMfgCost" value="{{current.customer.city}}" disabled>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                                    <label for="txtTotHOCost">Total Homeowner Cost:</label>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" style="background-color:White;" id="txtTotHOCost" value="{{current.customer.city}}" disabled>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--Button Div-->
+                                            <br />
+                                            <div class="row" style="height:20px;border-top: 1px solid rgb(204,204,204);"></div>
+                                            <div class="row">
+                                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9"></div>
+                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                    <label style="font-weight:bold;" class="checkbox-inline"><div><input type="checkbox" value="">&nbsp;&nbsp;Reviewed&nbsp;&nbsp;</div></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br /><br />
+                            <div class="row">
+                                <div class="SectCor_Square_Box col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <tabset type="pills">
+                                        <tab class="tabheading" heading="Lines">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <table class="table table-condensed table-hover table-responsive">
+                                                            <thead>
+                                                                <tr style="background-color:rgb(244,244,242);">
+                                                                    <!--
+                                                                    <th data-ng-click="customer.doSort('HistInstallDate')">Install Date</th>
+                                                                    <th data-ng-click="customer.doSort('SerNum')">Serial</th>
+                                                                    <th data-ng-click="customer.doSort('Item')">Model</th>
+                                                                    <th data-ng-click="customer.doSort('PlanNum')">Plan Number</th>
+                                                                    <th data-ng-click="customer.doSort('PlanDescription')">Plan Desc</th>
+                                                                    <th data-ng-click="customer.doSort('PlanTransferable')">Plan Transferable</th>
+                                                                    <th data-ng-click="customer.doSort('DistPrice')">Distributor Price</th>
+                                                                    <th data-ng-click="customer.doSort('CustPrice')">Dealer/Co-Dist Price</th>
+                                                                    <th data-ng-click="customer.doSort('HomeownerPrice')">Homeowner Price</th>
+                                                                    <th data-ng-click="customer.doSort('MfgCost')">Manufacturer Cost</th>
+                                                                    -->
+                                                                    <th>Install Date</th>
+                                                                    <th>Serial</th>
+                                                                    <th>Model</th>
+                                                                    <th>Plan Number</th>
+                                                                    <th>Plan Desc</th>
+                                                                    <th>Plan Transferable</th>
+                                                                    <th>Distributor Price</th>
+                                                                    <th>Dealer/Co-Dist Price</th>
+                                                                    <th>Homeowner Price</th>
+                                                                    <th>Manufacturer Cost</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                        <!--<tr data-ng-repeat="cust in customer.data | filter:people:strict | orderBy:sortBy:reverse">-->
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                    <td>Test6</td>
+                                                                    <td>Test7</td>
+                                                                    <td>Test8</td>
+                                                                    <td>Test9</td>
+                                                                    <td>Test10</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                    <td>Test6</td>
+                                                                    <td>Test7</td>
+                                                                    <td>Test8</td>
+                                                                    <td>Test9</td>
+                                                                    <td>Test10</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                    <td>Test6</td>
+                                                                    <td>Test7</td>
+                                                                    <td>Test8</td>
+                                                                    <td>Test9</td>
+                                                                    <td>Test10</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                    <td>Test6</td>
+                                                                    <td>Test7</td>
+                                                                    <td>Test8</td>
+                                                                    <td>Test9</td>
+                                                                    <td>Test10</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                    <td>Test6</td>
+                                                                    <td>Test7</td>
+                                                                    <td>Test8</td>
+                                                                    <td>Test9</td>
+                                                                    <td>Test10</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                    <td>Test6</td>
+                                                                    <td>Test7</td>
+                                                                    <td>Test8</td>
+                                                                    <td>Test9</td>
+                                                                    <td>Test10</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                    <td>Test6</td>
+                                                                    <td>Test7</td>
+                                                                    <td>Test8</td>
+                                                                    <td>Test9</td>
+                                                                    <td>Test10</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </tab>
+                                        <tab class="tabheading" heading="Consumer">
+                                            <br />
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                                                    <div class="SectCor col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                    <label class="GroupBox_Header_Format">&nbsp;Homeowner&nbsp;</label>
+                                                                    <br />
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                                    <label style="font-size:larger;">First Name:</label>
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="DerHistHomeownerFirstName" data-ng-model="people.name" placeholder="First Name..." disabled>
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                                    <label style="font-size:larger;">Last Name:</label>
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="DerHistHomeownerLastName" data-ng-model="people.name" placeholder="Last Name..." disabled>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row" style="height:7px;"></div>
+                                                            <div class="row">
+                                                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                                                    <label style="font-size:larger;">Name:</label>
+                                                                </div>
+                                                                <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="Text1" data-ng-model="people.name" placeholder="Name..." disabled>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row" style="height:7px;"></div>
+                                                            <div class="row">
+                                                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                                                    <label style="font-size:larger;">Address:</label>
+                                                                </div>
+                                                                <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="Text2" data-ng-model="people.name" placeholder="Address..." disabled>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row" style="height:7px;"></div>
+                                                            <div class="row">
+                                                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                                                    &nbsp;
+                                                                </div>
+                                                                <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="Text3" data-ng-model="people.name" placeholder="Address 2..." disabled>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row" style="height:7px;"></div>
+                                                            <div class="row">
+                                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                                    <label style="font-size:larger;">City:</label>
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="Text4" data-ng-model="people.name" placeholder="City..." disabled>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                                    <label style="font-size:larger;">State:</label>
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="Text5" data-ng-model="people.name" placeholder="State..." disabled>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                                    <label style="font-size:larger;">Zip:</label>
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="Text6" data-ng-model="people.name" placeholder="Zip..." disabled>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row" style="height:7px;"></div>
+                                                            <div class="row">
+                                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                                    <label style="font-size:larger;">Phone:</label>
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="Text7" data-ng-model="people.name" placeholder="Phone..." disabled>
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                                    <label style="font-size:larger;">Country:</label>
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="Text8" data-ng-model="people.name" placeholder="Country..." disabled>
+                                                                </div>
+                                                            </div>
+                                                            <br />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                                                </div>
+                                                <div class="row">&nbsp;</div>
+                                            </div>
+                                        </tab>
+                                        <tab class="tabheading" heading="Distributor/Dealer">
+                                            <br />
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                                                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                                        <div class="SectCor col-lg-5 col-md-5 col-sm-10 col-xs-10">
+                                                            <div class="container-fluid">
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                        <label class="GroupBox_Header_Format">&nbsp;Dealer&nbsp;</label>
+                                                                        <br />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                        <label for="DealName" style="font-size:larger;">Name:</label>
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="DealName" data-ng-model="people.name" placeholder="Name..." disabled>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row" style="height:7px;"></div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                        <label for="DealAddress" style="font-size:larger;">Address:</label>
+                                                                        <input type="text" class="form-control" id="DealAddress" data-ng-model="people.name" placeholder="Address..." disabled>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row" style="height:7px;"></div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="DealAddress2" data-ng-model="people.name" placeholder="Address 2..." disabled>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row" style="height:7px;"></div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-right:2px;">
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="Text9" data-ng-model="people.name" placeholder="City..." disabled>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-left:2px;padding-right:2px;">
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="Text10" data-ng-model="people.name" placeholder="State..." disabled>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-left:2px;">
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="Text11" data-ng-model="people.name" placeholder="Zip..." disabled>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row" style="height:7px;"></div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                                                        <label style="font-size:larger;">Phone:</label>
+                                                                    </div>
+                                                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="Text12" data-ng-model="people.name" placeholder="Phone..." disabled>
+                                                                    </div>
+                                                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="Text13" data-ng-model="people.name" placeholder="Country..." disabled>
+                                                                    </div>
+                                                                </div>
+                                                                <br />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                                                        <div class="SectCor col-lg-5 col-md-5 col-sm-10 col-xs-10">
+                                                            <div class="container-fluid">
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                        <label class="GroupBox_Header_Format">&nbsp;Distributor&nbsp;</label>
+                                                                        <br />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                        <label for="DistName" style="font-size:larger;">Name:</label>
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="DistName" data-ng-model="people.name" placeholder="Name..." disabled>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row" style="height:7px;"></div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                        <label for="DistAddress" style="font-size:larger;">Address:</label>
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="DistAddress" data-ng-model="people.name" placeholder="Address..." disabled>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row" style="height:7px;"></div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="Text14" data-ng-model="people.name" placeholder="Address 2..." disabled>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row" style="height:7px;"></div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-right:2px;">
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="Text15" data-ng-model="people.name" placeholder="City..." disabled>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-left:2px;padding-right:2px;">
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="Text16" data-ng-model="people.name" placeholder="State..." disabled>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-left:2px;">
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="Text17" data-ng-model="people.name" placeholder="Zip..." disabled>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row" style="height:7px;"></div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                                                        <label style="font-size:larger;">Phone:</label>
+                                                                    </div>
+                                                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="Text18" data-ng-model="people.name" placeholder="Phone..." disabled>
+                                                                    </div>
+                                                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                                                        <input type="text" class="form-control WhiteDisabledTextBox" id="Text19" data-ng-model="people.name" placeholder="Country..." disabled>
+                                                                    </div>
+                                                                </div>
+                                                                <br />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                                                    </div>
+                                                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                                                    <br />
+                                                </div>
+                                                <div class="row">&nbsp;</div>
+                                            </div>
+                                        </tab>
+                                        <tab class="tabheading" heading="Child Plans">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <table class="table table-condensed table-hover table-responsive">
+                                                            <thead>
+                                                                <tr style="background-color:rgb(244,244,242);">
+                                                                    <th>Install Date</th>
+                                                                    <th>Serial</th>
+                                                                    <th>Model</th>
+                                                                    <th>Parent Plan</th>
+                                                                    <th>Child Plan</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                        <!--<tr data-ng-repeat="cust in customer.data | filter:people:strict | orderBy:sortBy:reverse">-->
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Test1</td>
+                                                                    <td>Test2</td>
+                                                                    <td>Test3</td>
+                                                                    <td>Test4</td>
+                                                                    <td>Test5</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </tab>
+                                        <tab class="tabheading" heading="Billing">
+                                            <br />
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                                                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                                    <label style="font-size:larger;">Invoice Date:</label>
+                                                                </div>
+                                                                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="BillingInvoiceDate" data-ng-model="people.name" placeholder="Invoice Date..." disabled />
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+                                                            </div>
+                                                            <div class="row" style="height:7px;"></div>
+                                                            <div class="row">
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                                    <label style="font-size:larger;">Invoice Num:</label>
+                                                                </div>
+                                                                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="BillingInvoiceNum" data-ng-model="people.name" placeholder="Invoice Num..." disabled />
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+                                                            </div>
+                                                            <div class="row" style="height:7px;"></div>
+                                                            <div class="row">
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                                    <label style="font-size:larger;">Invoice Sequence:</label>
+                                                                </div>
+                                                                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="BillingInvoiceSequence" data-ng-model="people.name" placeholder="Invoice Sequence..." disabled />
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+                                                            </div>
+                                                            <div class="row" style="height:7px;"></div>
+                                                            <div class="row">
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                                    <label style="font-size:larger;">Invoice Company:</label>
+                                                                </div>
+                                                                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                                                    <input type="text" class="form-control WhiteDisabledTextBox" id="BillingInvoiceCompany" data-ng-model="people.name" placeholder="Invoice Company..." disabled />
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                                                    <br />
+                                                </div>
+                                                <div class="row">&nbsp;</div>
+                                            </div>
+                                        </tab>
+                                    </tabset>
+                                </div>
+                            </div>
+                            <br /><br />
+                        </div>
+			        </div>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br /><br />
+        <script src="scripts/app.js" type="text/javascript"></script>
+        <script src="controller/CustomersControllers.js" type="text/javascript"></script>
+    </form>
+</body>
+</html>

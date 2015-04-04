@@ -1,0 +1,5 @@
+C:\Users\DonC\Documents\Visual Studio 2013\Projects\Angular Fun Website\bin\SMPlusTestSite.dll.config
+C:\Users\DonC\Documents\Visual Studio 2013\Projects\Angular Fun Website\bin\SMPlusTestSite.dll
+C:\Users\DonC\Documents\Visual Studio 2013\Projects\Angular Fun Website\bin\SMPlusTestSite.pdb
+C:\Users\DonC\Documents\Visual Studio 2013\Projects\Angular Fun Website\obj\Debug\SMPlusTestSite.dll
+C:\Users\DonC\Documents\Visual Studio 2013\Projects\Angular Fun Website\obj\Debug\SMPlusTestSite.pdb
